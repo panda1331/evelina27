@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+h1{
+color: #001EB3;
+ font-family: fantasy;
+}
+
+.aqua{
+	color: #0079B4;
+	font-family: 'Pacifico', cursive;
+		
+}
+
+.test2{
+	color: #00003C;
+	font-family: 'IBM Plex Serif', serif;
+}
+.test3{
+	color: #E60026;
+	font-family: 'Arimo', sans-serif;
+}
+
+h2{
+   color: #9240F1;
+   font-family: 'Oswald', sans-serif;
+}
+
+td{   
+   width: 250px;
+   height: 250px;
+   border: double 2px black;
+   text-align: center;
+}
+
+#films th{
+	color: #FF0000;
+	font-family: 'Neucha', cursive;
+	}
+	/*
+#films{
+   
+   width: 40px;
+   height: 250px;
+   border: double 2px black;
+   text-align: center;
+}
+*/
+
+
+#calendar td{
+	width: 50px;
+   height: 50px;
+   border: double 2px black;
+   text-align: center;
+	
+}
+
+#calendar tr{
+	
+   height: 50px;
+}
+.class-pink{
+	color:pink; 
+	font-family: 'Press Start 2P', cursive;
+	background-color: pink;
+}
+
+
+.type{
+    font-family: 'IBM Plex Serif', serif;
+	color:red;
+	
+}
+
+
+
+.block{
+	color: #4DA6FF; 
+	font-family: 'Russo One', sans-serif;
+	
+}
+.div4{
+	background-color: blue;
+	margin-left: 60px;
+	padding: 20px;
+	transition-property: background-color: blue;
+	transition-duration: 1s;
+}
+
+div4:hover{
+	
+   background-color: pink;
+}
+
+
+.div2{
+	 background-color: blue;
+	transition-property:  background-color;
+	transition-duration: 1s;
+	
+}
+
+div2:hover{
+	
+   background-color: pink;
+}
+
+.div3{
+	
+background-color: blue;
+	transition-property:  background-color;
+	transition-duration: 1s;
+	align-content: right;
+}
+
+div3:hover{
+	
+   background-color: pink;
+}
+.shapka-item{
+	float: left;
+	margin-left: 800px;
+	
+}
+.shapka-item2{
+	float: right;
+	margin-right: 200px;
+}
+
+#shapka
+{
+	position: fixed;
+	background-color: #AA99FF;
+	width: 100%;
+	height: 75px;
+	top: 0;
+	padding: 0 20px;
+	margin-left: -10px;
+	z-index: 100;
+	
+}
+
+#menu{
+	position: absolute;
+	background-color: #F6CCFF;
+	width: 200px;
+	height: 600px;
+	top: 80px;
+	padding: 20px;
+	margin-left: 20px;
+	z-index: 200;
+	margin: 20px;
+}
+
+
+#osnova{
+	position: relative;
+	background-color: #CCCCFF;
+	width: 100%;
+	height: 100%;
+	top: 80px;
+	padding: 100px;
+	margin: 40px;
+	margin-left: 250px;
+	display: flex;
+	padding-top: 20px;
+	
+	
+}
+#shapka2{
+	position: fixed;
+	background-color: #AA99FF;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	padding:  20px;
+	margin-left: -10px;
+	z-index: 100;
+	
+	
+}
+#shapka{
+	position: fixed;
+	background-color: #AA99FF;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	padding:  20px;
+	margin-left: -10px;
+	z-index: 100;
+	
+	
+}
+
+#block{
+	position: relative;
+	background-color: #99AAFF;
+	width: 150px;
+	height: 320px;
+	top: 0;
+	padding: 50px;
+	margin-left: 10px;	
+	 
+}
+
+
+
+.rotate:hover{
+	transform: translate(-20px, 0px) scale(1.12);
+	z-index: 2;
+	
+}
+
+.rotate2{
+	transform: translate(470px, 0px) rotate(0deg);
+	z-index: -1;
+}
+.rotate2:hover{
+	transform: translate(470px, 0px) rotate(0deg) scale(1.15);
+	z-index: 2;
+}
+
+.rotate3{
+	transform: translate(870px, -150px) rotate(55deg);
+	z-index: -1;
+}
+.rotate3:hover{
+	transform: translate(870px, -150px) rotate(55deg) scale(1.15);
+}
+
+.rotate4{
+	transform: translate(780px, -55px) rotate(135deg);
+	z-index: -1;
+}
+
+.rotate4:hover{
+	transform: translate(780px, -55px) rotate(135deg)scale(1.15);
+
+}
+.rotate5{
+	transform: translate(290px, -360px) rotate(215deg);
+	z-index: -1;
+}
+.rotate5:hover{
+	transform: translate(290px, -360px) rotate(215deg) scale(1.15);
+	
+}
+.rotate6{
+	transform: translate(90px, -1150px) rotate(300deg);
+	z-index: -1;
+}
+.rotate6:hover{
+	transform: translate(90px, -1150px) rotate(300deg) scale(1.15);
+	
+}
+
+.rotate7:hover{
+	transform: translate(-20px, -20px) scale(1.12);
+	z-index: 2;
+	
+}
+
+.rotate8{
+	transform: translate(-40px, 35px) ;
+	z-index: 2;
+}
+
+
+
+.rotate9{
+	transform: translate(-50px, 35px) ;
+	z-index: 2;
+}
+
+.rotate10{
+	transform: translate(-50px, 35px) ;
+	z-index: 2;
+}
+
+
+#menu{
+	position: absolute;
+	background-color: #F6CCFF;
+	width: 200px;
+	height: 600px;
+	top: 80px;
+	padding: 20px;
+	margin: 30px;
+	z-index: 200px;
+	
+}
+
+a:link {
+  text-decoration: none;
+  }
+
+a:hover {
+  
+  transition: all 1s;
+  color: hotpink;
+}
+
+#glavnaya{
+	color: #001EB3; 
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	
+	
+}
+
+.text{
+	color: black; 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.txt{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.bbblock{
+	position: relative;
+	transform: translate(100px 0px) ;
+}
+
+.myClass {
+        float: left;
+        margin-right: 5px;
+        opacity: 0.4;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
